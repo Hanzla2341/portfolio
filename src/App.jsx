@@ -6,8 +6,9 @@ import Services from './components/Services'
 import Contact from './components/Contact'
 
 import {Routes,Route} from 'react-router-dom'
-import Portfolio from './components/portfolio'
-import Profile from './components/profile'
+import Profile from './components/Profile'
+import Portfolio from './components/Portfolio'
+
 
 
 const App = () => {
