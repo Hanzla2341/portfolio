@@ -1,9 +1,10 @@
 import React from 'react'
-import Profile from './components/profile'
+
 import './App.css'
 import Services from './components/Services'
 import Portfolio from './components/portfolio'
 import Contact from './components/Contact'
+import Profile from './components/profile'
 import {Routes,Route} from 'react-router-dom'
 
 const App = () => {
