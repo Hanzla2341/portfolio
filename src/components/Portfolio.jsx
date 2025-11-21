@@ -1,4 +1,4 @@
-// Projects.jsx
+// Portfolio.jsx
 
 import React from 'react';
 import styled from 'styled-components';
@@ -161,9 +161,9 @@ const ProjectItem = ({ image, title, description, link }) => (
 );
 
 
-// --- Main Component ---
+// --- Main Component (RENAMED TO Portfolio) ---
 
-const Projects = () => {
+const Portfolio = () => {
   const projectsData = [
     { 
       image: ImagePlaceholder1, 
@@ -191,4 +191,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;
