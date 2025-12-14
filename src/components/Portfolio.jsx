@@ -11,6 +11,8 @@ const WHITE = '#ffffff';
 
 // --- Images ---
 import ImagePlaceholder1 from '../assets/images/shopbot.png';
+import ImagePlaceholder2 from '../assets/images/shopchatbot.png';
+
 
 // --- Styled Components ---
 
@@ -170,6 +172,12 @@ const Portfolio = () => {
       title: 'ShopBot App',
       description: 'AI powered E-Commerce App.',
       link: 'https://shopbot-tan.vercel.app/'
+    },
+    { 
+      image: ImagePlaceholder2, 
+      title: 'ShopchatBot',
+      description: 'shopchatbot',
+      link: 'https://shopchatbot.vercel.app/'
     }
   ];
 
